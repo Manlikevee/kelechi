@@ -939,7 +939,7 @@ input {
     width: 363px;
     margin-right: 4rem;
   }
-  
+
   .experience__overlay:nth-child(2) {
     width: 160px;
   }
@@ -1039,6 +1039,8 @@ input {
   body {
     margin: 0;
   }
+
+  .meme
   .home__container, .home__img {
     height: 640px;
   }
@@ -1120,4 +1122,22 @@ line-height: 58px;
 letter-spacing: -0.03em;
 text-align: left;
 
+}
+
+@media screen and (max-width: 901px) {
+
+  .meme{
+    flex-direction: column-reverse;
+    gap: 19px;
+  }
+  .sec {
+    height: 230px;
+  }
+
+  .imagesideofdiv{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
